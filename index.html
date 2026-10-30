@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport">
+  <meta content="mobile_tab" name="shell-type">
+  <title>Nine's Academy - Real-World English &amp; Modern Management</title>
+  <meta name="description" content="Master real-world English fluency and agile leadership skills with interactive masterclasses in Tbilisi, Georgia and online worldwide.">
+
+  <!-- Typography & Icons -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+
+  <!-- Core Design System & Components CSS -->
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Tailwind CSS & Configuration -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#630ed4",
+            "primary-container": "#7c3aed",
+            "primary-fixed": "#eaddff",
+            "primary-fixed-dim": "#d2bbff",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#ede0ff",
+            "on-primary-fixed": "#25005a",
+            "secondary": "#ad2c4f",
+            "secondary-container": "#fd6989",
+            "secondary-fixed": "#ffd9dd",
+            "secondary-fixed-dim": "#ffb2bd",
+            "on-secondary": "#ffffff",
+            "on-secondary-container": "#6b0027",
+            "tertiary": "#005b3d",
+            "tertiary-container": "#007650",
+            "tertiary-fixed": "#6ffbbe",
+            "tertiary-fixed-dim": "#4edea3",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed": "#002113",
+            "surface": "#fbf8ff",
+            "surface-dim": "#dad9e4",
+            "surface-bright": "#fbf8ff",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#f4f2fe",
+            "surface-container": "#eeecf8",
+            "surface-container-high": "#e9e7f3",
+            "surface-container-highest": "#e3e1ed",
+            "on-surface": "#1a1b23",
+            "on-surface-variant": "#4a4455",
+            "outline": "#7b7487",
+            "outline-variant": "#ccc3d8",
+            "error": "#ba1a1a",
+            "error-container": "#ffdad6"
+          },
+          borderRadius: {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "gutter": "1rem",
+            "gutter-desktop": "1.5rem",
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.25rem"
+          },
+          fontFamily: {
+            "body-md": ["Plus Jakarta Sans"],
+            "display": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "label-lg": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "display-mobile": ["Plus Jakarta Sans"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "title-md": ["Plus Jakarta Sans"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "headline-sm": ["Plus Jakarta Sans"]
+          },
+          fontSize: {
+            "body-md": ["14px", { lineHeight: "22px", letterSpacing: "0.01em", fontWeight: "400" }],
+            "display": ["48px", { lineHeight: "56px", letterSpacing: "-0.03em", fontWeight: "800" }],
+            "body-lg": ["16px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "400" }],
+            "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "700" }],
+            "headline-lg-mobile": ["26px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "700" }],
+            "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "700" }],
+            "display-mobile": ["34px", { lineHeight: "42px", letterSpacing: "-0.02em", fontWeight: "800" }],
+            "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "title-md": ["18px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "600" }],
+            "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.05em", fontWeight: "800" }],
+            "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.03em", fontWeight: "700" }],
+            "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "0em", fontWeight: "600" }]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+
+<body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen relative antialiased">
+  <div class="app-container flex flex-col min-h-screen">
+
+    <!-- Top Fixed App Header -->
+    <header class="fixed top-0 left-0 right-0 max-w-[540px] mx-auto w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_4px_20px_rgba(124,58,237,0.06)] border-b border-primary/5">
+      <div class="h-16 px-gutter flex items-center justify-between gap-space-sm">
+        <div class="flex items-center gap-space-sm min-w-0 cursor-pointer" data-goto-tab="overview">
+          <img alt="Nine's Academy Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxG94w3bRrSaMGzXjICPcHzt4yS4dEnv8xA1K2Co5BpKHQ88doRG9asFHQqnyILrlDRLxX34XOTi4McG4EDrNBunIjl17Tz1_tttUqtR0uTMhgMRGhG0ZyavOpjc_WauRrLPCrxysTDAZs3NQVmsttSxxzTVTckokFS9KJpGXR0PweFdZ8JgxPP3Mx9-GidmVU0_mbiMQ4W8BWzdVAiSWF0sxfxGyPt7Cjboi2c3o">
+          <div class="flex flex-col min-w-0">
+            <span class="font-label-lg text-label-lg text-primary truncate leading-tight">Nine's Academy</span>
+            <span id="headerSubtitle" class="font-label-sm text-label-sm text-on-surface-variant truncate">Overview</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-space-xs flex-shrink-0">
+          <button data-action="open-enroll" class="inline-flex items-center px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm shadow-[0_2px_8px_rgba(253,105,137,0.3)] hover:opacity-90 active:scale-95 transition-all">
+            Enroll 2025
+          </button>
+          <button id="openNavDrawerBtn" aria-label="Open Navigation Drawer" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container active:scale-95 transition-all">
+            <span class="material-symbols-outlined text-[24px]">menu</span>
+          </button>
+          <button id="headerProfileBtn" aria-label="View Student Profile" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-[0_2px_8px_rgba(99,14,212,0.35)] active:scale-95 transition-all">
+            <span class="material-symbols-outlined text-on-primary text-[18px]">person</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Views Container -->
+    <main class="flex flex-col relative w-full pt-16 pb-28 bg-surface">
+
+      <!-- ================= TAB 1: OVERVIEW / EXPLORE ================= -->
+      <section id="tab-overview" class="tab-view active">
+        <div class="flex flex-col w-full">
+          <div class="relative w-full px-gutter py-space-md flex flex-col gap-space-lg overflow-hidden">
+            
+            <!-- Top Notification Capsule -->
+            <div class="self-center flex items-center gap-space-xs bg-surface-container-lowest px-4 py-1.5 rounded-full shadow-[0_4px_16px_rgba(124,58,237,0.1)] border border-primary/10">
+              <span class="animate-bounce text-[14px]">🚀</span>
+              <span class="font-label-sm text-label-sm text-primary tracking-wide">LEARNING MADE ADDICTIVE &amp; FUN!</span>
+              <span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+            </div>
+
+            <!-- Main Headline -->
+            <div class="text-center flex flex-col gap-space-xs px-1">
+              <h1 class="font-display-mobile text-display-mobile tracking-tight text-on-surface">
+                Master <span class="bg-gradient-to-r from-primary via-primary-container to-secondary bg-clip-text text-transparent">English</span> &amp; <span class="bg-gradient-to-r from-secondary to-primary-container bg-clip-text text-transparent">Management!</span>
+              </h1>
+              <p class="font-body-md text-body-md text-on-surface-variant max-w-md mx-auto leading-relaxed mt-1">
+                Break language barriers and level up your leadership skills with interactive masterclasses tailored for ambitious kids, teens, and professionals.
+              </p>
+            </div>
+
+            <!-- 3D Hero Art Showcase -->
+            <div class="relative w-full mx-auto max-w-sm">
+              <div class="absolute -inset-2 bg-gradient-to-tr from-primary-fixed via-secondary-fixed to-tertiary-fixed rounded-xl blur-xl opacity-60"></div>
+              <div class="relative bg-surface-container-lowest p-2 rounded-xl shadow-[0_16px_36px_rgba(124,58,237,0.14)] overflow-hidden">
+                <img alt="Mentor and curious learner collaborating with educational charts" class="w-full h-72 object-cover rounded-lg transform hover:scale-105 transition-transform duration-500 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC7Okf--ue8lu8no314V0oqqIuRsDHPpm41LmB9I6_dThsZDPqLON6W95zliTaTUPgt0AS0HRJm_9nQePNvTrMHdVRSJnefcxlNqAho1GekCVpytf4jo8dO6HPP561kyGKG3hs3Y7Ig8e0MSOjUj3ClsjQU_N8IcFETVbMIRoIoUM9_V4fYdc6IMU3WvYTVcyLrrcidEloHZ7gCobbeH7fFPmUlPfzOiVlt6a5_os">
+                
+                <!-- Floating Badges -->
+                <div class="absolute top-4 left-3 bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1.5 rounded-full shadow-[0_8px_16px_rgba(99,14,212,0.16)] flex items-center gap-1.5 animate-pulse">
+                  <span class="text-xs">🗣️</span>
+                  <span class="font-label-sm text-label-sm text-primary">100% Fluency</span>
+                </div>
+                <div class="absolute top-4 right-3 bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1.5 rounded-full shadow-[0_8px_16px_rgba(253,105,137,0.2)] flex items-center gap-1.5">
+                  <span class="text-xs">📊</span>
+                  <span class="font-label-sm text-label-sm text-secondary">Agile Leaders</span>
+                </div>
+                <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-surface-container-lowest/90 backdrop-blur-md px-4 py-1.5 rounded-full shadow-[0_6px_20px_rgba(0,0,0,0.12)] flex items-center gap-1.5 whitespace-nowrap">
+                  <div class="flex text-amber-400 text-xs">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                  </div>
+                  <span class="font-label-md text-label-md text-on-surface">4.9/5 Rating</span>
+                  <span class="text-on-surface-variant font-label-sm text-label-sm">(1.2k+ Reviews)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hero CTA Cluster -->
+            <div class="flex flex-col gap-space-sm pt-2">
+              <button data-action="open-enroll" class="relative group w-full py-4 px-6 rounded-full bg-gradient-to-r from-primary to-primary-container text-on-primary font-label-lg text-label-lg text-center shadow-[0_6px_0_#430991,0_12px_24px_rgba(99,14,212,0.35)] active:translate-y-1 active:shadow-[0_2px_0_#430991] transition-all duration-150 flex items-center justify-center gap-2">
+                <span class="tracking-wide">Enroll Now For 2025</span>
+                <span class="text-lg">⚡</span>
+              </button>
+
+              <button data-goto-tab="courses" class="w-full py-3.5 px-6 rounded-full bg-surface-container-low text-primary font-label-lg text-label-lg text-center shadow-[0_4px_14px_rgba(124,58,237,0.08)] active:bg-surface-container hover:shadow-md transition-all flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined text-[18px]">menu_book</span>
+                <span>Explore Courses</span>
+              </button>
+
+              <div class="flex items-center justify-center gap-2 mt-2">
+                <div class="flex -space-x-2">
+                  <div class="w-7 h-7 rounded-full bg-primary-container text-on-primary flex items-center justify-center text-[10px] font-bold shadow-sm">NA</div>
+                  <div class="w-7 h-7 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center text-[10px] font-bold shadow-sm">GE</div>
+                  <div class="w-7 h-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center text-[10px] font-bold shadow-sm">UK</div>
+                </div>
+                <p class="font-label-sm text-label-sm text-on-surface-variant">
+                  Trusted by <strong class="text-on-surface font-label-md">1,200+ students</strong> &amp; young pros!
+                </p>
+              </div>
+            </div>
+
+            <!-- Dual Core Tracks Section -->
+            <div class="flex flex-col gap-space-md pt-space-md" id="tracks">
+              <div class="flex items-center justify-between">
+                <div>
+                  <span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Targeted Programs</span>
+                  <h2 class="font-headline-md text-headline-md text-on-surface">Dual Mastery Tracks</h2>
+                </div>
+                <span class="p-2 rounded-full bg-surface-container-high text-primary">
+                  <span class="material-symbols-outlined text-[20px]">tune</span>
+                </span>
+              </div>
+
+              <!-- TRACK 1: English Mastery -->
+              <div class="bg-surface-container-lowest p-space-md rounded-lg shadow-[0_8px_24px_rgba(124,58,237,0.06)] flex flex-col gap-space-sm relative overflow-hidden transition-transform active:scale-[0.99] border border-primary/10">
+                <div class="absolute -right-6 -bottom-6 w-28 h-28 bg-primary-fixed/30 rounded-full blur-2xl pointer-events-none"></div>
+                <div class="flex items-start justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary shadow-[0_4px_12px_rgba(99,14,212,0.15)] text-xl font-bold">
+                      🇬🇧
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-1.5">
+                        <span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-primary/10 text-primary">Popular</span>
+                        <span class="font-label-sm text-label-sm text-on-surface-variant">A1 - C2</span>
+                      </div>
+                      <h3 class="font-title-md text-title-md text-on-surface font-bold">Real-World English Mastery</h3>
+                    </div>
+                  </div>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant">
+                  Ditch boring grammar drills! Speak fluently through scenario-based conversation, business etiquette drills, and IELTS/TOEFL sprints.
+                </p>
+                <div class="flex flex-wrap gap-1.5 py-1">
+                  <span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[14px] text-primary">record_voice_over</span> Accent Coaching
+                  </span>
+                  <span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[14px] text-primary">sports_esports</span> Vocab Quests
+                  </span>
+                  <span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[14px] text-primary">badge</span> Business Idioms
+                  </span>
+                </div>
+                <div class="bg-surface-container-low p-2.5 rounded-xl flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+                    <span class="font-label-sm text-label-sm text-on-surface">Speaking Confidence Index</span>
+                  </div>
+                  <span class="font-label-md text-label-md text-primary">+88% Avg Jump</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2 pt-1">
+                  <button data-action="view-syllabus" data-syllabus="english" class="w-full py-2.5 rounded-full bg-surface-container text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 hover:bg-surface-container-high transition-colors">
+                    <span>View Syllabus</span>
+                    <span class="material-symbols-outlined text-[16px]">menu_book</span>
+                  </button>
+                  <button data-action="open-enroll" data-track="track-english" class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-all">
+                    <span>Enroll Now</span>
+                    <span class="material-symbols-outlined text-[16px]">bolt</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- TRACK 2: Modern Management -->
+              <div class="bg-surface-container-lowest p-space-md rounded-lg shadow-[0_8px_24px_rgba(253,105,137,0.06)] flex flex-col gap-space-sm relative overflow-hidden transition-transform active:scale-[0.99] border border-secondary/10">
+                <div class="absolute -right-6 -bottom-6 w-28 h-28 bg-secondary-fixed/40 rounded-full blur-2xl pointer-events-none"></div>
+                <div class="flex items-start justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary shadow-[0_4px_12px_rgba(173,44,79,0.15)] text-xl font-bold">
+                      📈
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-1.5">
+                        <span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-secondary/10 text-secondary">Career Booster</span>
+                        <span class="font-label-sm text-label-sm text-on-surface-variant">Practical</span>
+                      </div>
+                      <h3 class="font-title-md text-title-md text-on-surface font-bold">Modern Management &amp; Leadership</h3>
+                    </div>
+                  </div>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant">
+                  Lead people and projects like a seasoned executive. Learn Agile frameworks, conflict resolution, and boardroom-level pitch presentation.
+                </p>
+                <div class="flex flex-wrap gap-1.5 py-1">
+                  <span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[14px] text-secondary">handshake</span> Negotiation
+                  </span>
+                  <span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[14px] text-secondary">groups</span> Team Dynamics
+                  </span>
+                  <span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[14px] text-secondary">sprint</span> Agile &amp; Scrum
+                  </span>
+                </div>
+                <div class="bg-surface-container-low p-2.5 rounded-xl flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-secondary text-[18px]">trending_up</span>
+                    <span class="font-label-sm text-label-sm text-on-surface">Career Advancement</span>
+                  </div>
+                  <span class="font-label-md text-label-md text-secondary">Promoted in 6 Mo</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2 pt-1">
+                  <button data-action="view-syllabus" data-syllabus="management" class="w-full py-2.5 rounded-full bg-surface-container text-secondary font-label-md text-label-md flex items-center justify-center gap-1.5 hover:bg-surface-container-high transition-colors">
+                    <span>View Syllabus</span>
+                    <span class="material-symbols-outlined text-[16px]">menu_book</span>
+                  </button>
+                  <button data-action="open-enroll" data-track="track-management" class="w-full py-2.5 rounded-full bg-secondary text-on-secondary font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-all">
+                    <span>Enroll Now</span>
+                    <span class="material-symbols-outlined text-[16px]">bolt</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Perks Bento Grid -->
+            <div class="flex flex-col gap-space-sm pt-space-md">
+              <div class="text-center mb-1">
+                <span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">The Academy Advantage</span>
+                <h2 class="font-headline-md text-headline-md text-on-surface">Why Students Love Us! 💜</h2>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div class="bg-surface-container-lowest p-4 rounded-lg shadow-[0_6px_16px_rgba(124,58,237,0.05)] flex flex-col gap-2 border border-primary/5">
+                  <div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary text-xl">🎮</div>
+                  <h4 class="font-label-lg text-label-lg text-on-surface leading-tight">Gamified Lessons</h4>
+                  <p class="font-label-sm text-label-sm text-on-surface-variant">Earn XP, collect badges, and climb weekly squad leaderboards.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-4 rounded-lg shadow-[0_6px_16px_rgba(124,58,237,0.05)] flex flex-col gap-2 border border-primary/5">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary text-xl">👥</div>
+                  <h4 class="font-label-lg text-label-lg text-on-surface leading-tight">Micro-Groups</h4>
+                  <p class="font-label-sm text-label-sm text-on-surface-variant">Max 6 learners per cohort so everyone gets intense speaking time.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-4 rounded-lg shadow-[0_6px_16px_rgba(124,58,237,0.05)] flex flex-col gap-2 border border-primary/5">
+                  <div class="w-10 h-10 rounded-xl bg-tertiary-fixed flex items-center justify-center text-tertiary text-xl">🎙️</div>
+                  <h4 class="font-label-lg text-label-lg text-on-surface leading-tight">Live Roleplay</h4>
+                  <p class="font-label-sm text-label-sm text-on-surface-variant">Simulate boardrooms, investor pitches, and global team calls.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-4 rounded-lg shadow-[0_6px_16px_rgba(124,58,237,0.05)] flex flex-col gap-2 border border-primary/5">
+                  <div class="w-10 h-10 rounded-xl bg-primary-fixed-dim/40 flex items-center justify-center text-primary text-xl">📜</div>
+                  <h4 class="font-label-lg text-label-lg text-on-surface leading-tight">Certificate</h4>
+                  <p class="font-label-sm text-label-sm text-on-surface-variant">Graduate with verified credentials ready for LinkedIn &amp; CVs.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Early Bird Promo Banner -->
+            <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary via-primary-container to-secondary p-space-md text-on-primary shadow-[0_12px_28px_rgba(99,14,212,0.3)]">
+              <div class="relative z-10 flex flex-col gap-space-sm">
+                <div class="flex items-center justify-between">
+                  <span class="px-3 py-1 rounded-full bg-surface-container-lowest/20 backdrop-blur-md font-label-sm text-label-sm text-on-primary">
+                    🌸 Spring Cohort 2025
+                  </span>
+                  <span class="font-label-lg text-label-lg bg-secondary px-2.5 py-0.5 rounded-full animate-bounce">
+                    -20% OFF
+                  </span>
+                </div>
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-primary">Reserve Your Seat Today!</h3>
+                  <p class="font-body-md text-body-md text-on-primary-container mt-1">
+                    Spots are strictly capped at 6 students per group to guarantee personal attention.
+                  </p>
+                </div>
+                <div class="flex items-center gap-2 pt-1">
+                  <div class="flex-1 bg-surface-container-lowest/20 rounded-full h-2.5 overflow-hidden">
+                    <div class="bg-tertiary-fixed w-4/5 h-full rounded-full"></div>
+                  </div>
+                  <span data-element="seats-left-counter" class="font-label-sm text-label-sm text-on-primary font-bold">Only 4 Seats Left</span>
+                </div>
+                <button data-action="open-enroll" class="mt-2 py-3 px-5 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg font-bold shadow-md hover:bg-surface-container-low transition-all">
+                  Claim Your 20% Discount
+                </button>
+              </div>
+            </div>
+
+            <!-- Direct Contact & Admissions Card -->
+            <div class="relative w-full rounded-xl p-space-md bg-surface-container-lowest shadow-[0_14px_36px_rgba(124,58,237,0.12)] flex flex-col gap-space-md border border-primary/20">
+              <div class="flex items-start gap-3">
+                <div class="w-12 h-12 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary text-2xl flex-shrink-0 shadow-[0_4px_12px_rgba(99,14,212,0.18)]">
+                  💬
+                </div>
+                <div class="flex flex-col">
+                  <h3 class="font-title-md text-title-md text-on-surface font-extrabold">Let's Connect &amp; Start Learning! ✨</h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                    Have questions about courses or schedules? Reach out to Nine's team directly:
+                  </p>
+                </div>
+              </div>
+
+              <!-- Clickable Tap-to-Call & Email -->
+              <div class="flex flex-col gap-2.5 bg-surface-container-low p-space-sm rounded-lg">
+                <a class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest hover:bg-surface-container transition-all shadow-sm active:scale-[0.98]" href="tel:597042154">
+                  <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                      <span class="material-symbols-outlined text-[20px]">call</span>
+                    </div>
+                    <div class="flex flex-col">
+                      <span class="font-label-sm text-label-sm text-on-surface-variant">Primary Admissions</span>
+                      <span class="font-label-lg text-label-lg text-on-surface tracking-wide">597 042 154</span>
+                    </div>
+                  </div>
+                  <span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-primary text-on-primary">Tap to Call</span>
+                </a>
+
+                <a class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest hover:bg-surface-container transition-all shadow-sm active:scale-[0.98]" href="tel:504444569">
+                  <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                      <span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+                    </div>
+                    <div class="flex flex-col">
+                      <span class="font-label-sm text-label-sm text-on-surface-variant">Student Support</span>
+                      <span class="font-label-lg text-label-lg text-on-surface tracking-wide">504 444 569</span>
+                    </div>
+                  </div>
+                  <span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container">Tap to Call</span>
+                </a>
+
+                <a class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest hover:bg-surface-container transition-all shadow-sm active:scale-[0.98]" href="mailto:ninekapanadze@gmail.com">
+                  <div class="flex items-center gap-3 min-w-0">
+                    <div class="w-9 h-9 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary flex-shrink-0">
+                      <span class="material-symbols-outlined text-[20px]">mail</span>
+                    </div>
+                    <div class="flex flex-col min-w-0">
+                      <span class="font-label-sm text-label-sm text-on-surface-variant">Direct Academic Email</span>
+                      <span class="font-label-md text-label-md text-on-surface truncate">ninekapanadze@gmail.com</span>
+                    </div>
+                  </div>
+                  <span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-surface-container text-primary flex-shrink-0">Send Email</span>
+                </a>
+              </div>
+
+              <div class="grid grid-cols-2 gap-space-sm pt-1">
+                <a class="py-3 px-3 rounded-full bg-primary text-on-primary font-label-md text-label-md text-center shadow-md active:scale-95 transition-all flex items-center justify-center gap-1.5" href="tel:597042154">
+                  <span class="material-symbols-outlined text-[18px]">call</span>
+                  <span>Call Admissions</span>
+                </a>
+                <a class="py-3 px-3 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md text-center hover:bg-surface-dim active:scale-95 transition-all flex items-center justify-center gap-1.5" href="mailto:ninekapanadze@gmail.com">
+                  <span class="material-symbols-outlined text-[18px]">outgoing_mail</span>
+                  <span>Send Direct Email</span>
+                </a>
+              </div>
+
+              <div class="flex items-center justify-center gap-1.5 text-center pt-2">
+                <span class="material-symbols-outlined text-secondary text-[16px]">location_on</span>
+                <span class="font-label-sm text-label-sm text-on-surface-variant">
+                  Tbilisi, Georgia 🇬🇪 &nbsp;|&nbsp; Online Worldwide 🌍
+                </span>
+              </div>
+            </div>
+
+            <div class="text-center py-2">
+              <p class="font-label-sm text-label-sm text-on-surface-variant">
+                Designed with 💜 for ambitious minds • <span class="font-semibold text-primary">Nine's Academy</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TAB 2: COURSES CATALOG ================= -->
+      <section id="tab-courses" class="tab-view">
+        <div class="px-gutter py-space-md flex flex-col gap-space-md">
+          <div>
+            <span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Curriculum &amp; Programs</span>
+            <h2 class="font-headline-md text-headline-md text-on-surface">Explore All Courses</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant mt-1">
+              Select a specialized program designed for fast, practical progression.
+            </p>
+          </div>
+
+          <!-- Category Filter Pills -->
+          <div class="flex gap-2 overflow-x-auto pb-1">
+            <button data-filter="all" class="px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md whitespace-nowrap shadow-sm transition-all">
+              All Tracks
+            </button>
+            <button data-filter="english" class="px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap transition-all">
+              English
+            </button>
+            <button data-filter="management" class="px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap transition-all">
+              Management
+            </button>
+            <button data-filter="kids" class="px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap transition-all">
+              Kids &amp; Teens
+            </button>
+          </div>
+
+          <!-- Courses Dynamic List -->
+          <div id="coursesCatalogList" class="flex flex-col gap-space-md">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TAB 3: AI ADVISOR CHAT ================= -->
+      <section id="tab-live-chat" class="tab-view">
+        <div class="px-gutter py-space-md flex flex-col gap-space-sm h-full">
+          <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-primary/10 flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary text-2xl flex-shrink-0 shadow-sm">
+              🤖
+            </div>
+            <div class="flex flex-col min-w-0">
+              <div class="flex items-center gap-2">
+                <h2 class="font-title-md text-title-md text-on-surface font-bold truncate">Nine's AI Advisor</h2>
+                <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold">
+                  Online
+                </span>
+              </div>
+              <p class="font-label-sm text-label-sm text-on-surface-variant">Instant answers on tuition, placement &amp; schedules</p>
+            </div>
+          </div>
+
+          <!-- Quick Question Chips -->
+          <div id="chatQuickChips" class="flex gap-2 overflow-x-auto py-1">
+            <button data-query="How much does English Mastery cost?" class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm whitespace-nowrap hover:bg-surface-container-high transition-all">
+              💰 Tuition fees?
+            </button>
+            <button data-query="When do cohorts meet?" class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm whitespace-nowrap hover:bg-surface-container-high transition-all">
+              📅 Class schedule?
+            </button>
+            <button data-query="Can I take a placement test?" class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm whitespace-nowrap hover:bg-surface-container-high transition-all">
+              🎯 Level test?
+            </button>
+            <button data-query="Where is Nine's Academy located?" class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm whitespace-nowrap hover:bg-surface-container-high transition-all">
+              📍 Location info?
+            </button>
+          </div>
+
+          <!-- Messages Container -->
+          <div class="bg-surface-container-lowest rounded-xl shadow-sm border border-primary/10 p-3 flex flex-col flex-1">
+            <div id="chatMessages" class="chat-messages-container flex-1">
+              <!-- Rendered dynamically by chat.js -->
+            </div>
+
+            <!-- Typing indicator -->
+            <div id="chatTyping" class="hidden items-center gap-1.5 p-2 text-on-surface-variant font-label-sm text-label-sm">
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+              <span class="ml-1">Nine's Advisor is typing...</span>
+            </div>
+
+            <!-- Input Bar -->
+            <div class="mt-2 pt-2 border-t border-primary/10 flex items-center gap-2">
+              <input id="chatInput" type="text" placeholder="Ask about programs, admission, or fees..." class="flex-1 bg-surface-container-low px-4 py-2.5 rounded-full text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/40 border border-primary/10">
+              <button id="chatSendBtn" aria-label="Send Message" class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center flex-shrink-0 shadow-md active:scale-95 transition-all">
+                <span class="material-symbols-outlined text-[20px]">send</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TAB 4: ADMISSIONS HUB / CALL NOW ================= -->
+      <section id="tab-call-admissions" class="tab-view">
+        <div class="px-gutter py-space-md flex flex-col gap-space-md">
+          <div>
+            <span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Direct Access</span>
+            <h2 class="font-headline-md text-headline-md text-on-surface">Admissions &amp; Contact Hub</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant mt-1">
+              Speak directly with Ms. Nine Kapanadze and our educational consulting team.
+            </p>
+          </div>
+
+          <!-- Direct Call Cards -->
+          <div class="flex flex-col gap-3">
+            <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-primary/10 flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <span class="material-symbols-outlined text-[22px]">call</span>
+                  </div>
+                  <div>
+                    <h4 class="font-label-lg text-label-lg text-on-surface">Primary Admissions Line</h4>
+                    <p class="font-label-sm text-label-sm text-on-surface-variant">Immediate course inquiry &amp; bookings</p>
+                  </div>
+                </div>
+              </div>
+              <a href="tel:597042154" class="w-full py-3 px-4 rounded-full bg-primary text-on-primary font-label-md text-label-md text-center shadow-md active:scale-95 transition-all flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined text-[18px]">phone_enabled</span>
+                <span>Call 597 042 154</span>
+              </a>
+            </div>
+
+            <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-secondary/10 flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                    <span class="material-symbols-outlined text-[22px]">support_agent</span>
+                  </div>
+                  <div>
+                    <h4 class="font-label-lg text-label-lg text-on-surface">Student Support Desk</h4>
+                    <p class="font-label-sm text-label-sm text-on-surface-variant">Schedules, assessments &amp; portals</p>
+                  </div>
+                </div>
+              </div>
+              <a href="tel:504444569" class="w-full py-3 px-4 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md text-center shadow-md active:scale-95 transition-all flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined text-[18px]">phone_in_talk</span>
+                <span>Call 504 444 569</span>
+              </a>
+            </div>
+
+            <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-tertiary/10 flex flex-col gap-3">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary">
+                  <span class="material-symbols-outlined text-[22px]">mail</span>
+                </div>
+                <div>
+                  <h4 class="font-label-lg text-label-lg text-on-surface">Direct Academic Email</h4>
+                  <p class="font-label-sm text-label-sm text-on-surface-variant">ninekapanadze@gmail.com</p>
+                </div>
+              </div>
+              <a href="mailto:ninekapanadze@gmail.com" class="w-full py-3 px-4 rounded-full bg-surface-container text-primary font-label-md text-label-md text-center hover:bg-surface-container-high transition-all flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined text-[18px]">outgoing_mail</span>
+                <span>Send Direct Email</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Request a Quick Callback Form -->
+          <div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 flex flex-col gap-space-sm">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary text-[22px]">ring_volume</span>
+              <h3 class="font-title-md text-title-md text-on-surface font-bold">Request a Free Callback</h3>
+            </div>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Leave your details and our senior advisor will call you within 30 minutes.
+            </p>
+
+            <form id="callbackRequestForm" class="flex flex-col gap-3 mt-1">
+              <div class="flex flex-col gap-1">
+                <label for="callbackName" class="font-label-sm text-label-sm text-on-surface font-bold">Your Name</label>
+                <input id="callbackName" required type="text" placeholder="e.g. Nino Kapanadze" class="bg-surface-container-low px-3.5 py-2.5 rounded-xl text-on-surface font-body-md text-body-md border border-primary/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+              </div>
+
+              <div class="flex flex-col gap-1">
+                <label for="callbackPhone" class="font-label-sm text-label-sm text-on-surface font-bold">Phone Number</label>
+                <input id="callbackPhone" required type="tel" placeholder="e.g. 597 042 154" class="bg-surface-container-low px-3.5 py-2.5 rounded-xl text-on-surface font-body-md text-body-md border border-primary/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+              </div>
+
+              <div class="flex flex-col gap-1">
+                <label for="callbackTime" class="font-label-sm text-label-sm text-on-surface font-bold">Preferred Call Window</label>
+                <select id="callbackTime" class="bg-surface-container-low px-3.5 py-2.5 rounded-xl text-on-surface font-body-md text-body-md border border-primary/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+                  <option value="As soon as possible">As soon as possible (Next 30 mins)</option>
+                  <option value="Today afternoon (2:00 PM - 5:00 PM)">Today afternoon (2:00 PM - 5:00 PM)</option>
+                  <option value="This evening (6:00 PM - 8:30 PM)">This evening (6:00 PM - 8:30 PM)</option>
+                  <option value="Tomorrow morning">Tomorrow morning</option>
+                </select>
+              </div>
+
+              <button type="submit" class="mt-2 w-full py-3.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md active:scale-95 transition-all">
+                Submit Callback Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TAB 5: STUDENT PORTAL ================= -->
+      <section id="tab-student-portal" class="tab-view">
+        <div class="px-gutter py-space-md flex flex-col gap-space-md">
+          <!-- Student Banner Card -->
+          <div class="bg-gradient-to-r from-primary via-primary-container to-secondary p-space-md rounded-2xl text-on-primary shadow-lg flex flex-col gap-space-sm relative overflow-hidden">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-14 h-14 rounded-full bg-surface-container-lowest text-primary font-bold text-xl flex items-center justify-center shadow-md">
+                  AB
+                </div>
+                <div>
+                  <h3 id="portalStudentName" class="font-title-md text-title-md font-bold text-on-primary">Alex Beridze</h3>
+                  <span id="portalStudentTrack" class="font-label-sm text-label-sm text-on-primary-container">Real-World English Mastery</span>
+                </div>
+              </div>
+              <div class="flex flex-col items-end">
+                <span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/20 backdrop-blur-md text-[11px] font-bold">Level 7</span>
+                <span class="text-xs mt-1 text-on-primary-container">B2.2 Fluency</span>
+              </div>
+            </div>
+
+            <!-- XP Progress Meter -->
+            <div class="flex flex-col gap-1.5 mt-2">
+              <div class="flex justify-between items-center text-xs font-bold text-on-primary">
+                <span>XP Progress to Level 8</span>
+                <span id="portalXpNumber">840 / 1000 XP</span>
+              </div>
+              <div class="w-full bg-surface-container-lowest/20 h-3 rounded-full overflow-hidden">
+                <div id="portalXpProgressBar" class="xp-progress-fill bg-tertiary-fixed h-full rounded-full transition-all duration-500"></div>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between pt-1 text-xs">
+              <span class="flex items-center gap-1 font-bold">🔥 12-Day Streak</span>
+              <span class="flex items-center gap-1">Attendance: 96%</span>
+            </div>
+          </div>
+
+          <!-- Upcoming Live Session -->
+          <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-primary/10 flex flex-col gap-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2 text-primary font-bold text-sm">
+                <span class="material-symbols-outlined text-[18px]">videocam</span>
+                <span>Next Live Cohort Class</span>
+              </div>
+              <span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm">Tomorrow</span>
+            </div>
+            <div>
+              <h4 class="font-title-md text-title-md text-on-surface font-bold">Scenario: High-Stakes Negotiation &amp; Idioms</h4>
+              <p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Instructor: Nine Kapanadze • 7:00 PM (GET)</p>
+            </div>
+            <button id="portalJoinZoomBtn" class="w-full py-3 px-4 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center gap-2 shadow-sm active:scale-95 transition-all">
+              <span class="material-symbols-outlined text-[18px]">open_in_new</span>
+              <span>Launch Live HD Classroom</span>
+            </button>
+          </div>
+
+          <!-- Interactive Homework & Quests -->
+          <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-primary/10 flex flex-col gap-3">
+            <div class="flex items-center justify-between">
+              <h3 class="font-title-md text-title-md text-on-surface font-bold">Weekly Mastery Quests</h3>
+              <span class="font-label-sm text-label-sm text-secondary font-bold">+XP Booster</span>
+            </div>
+            <div id="portalQuestsList" class="flex flex-col gap-2">
+              <!-- Rendered dynamically by portal.js -->
+            </div>
+          </div>
+
+          <!-- Earned Badges -->
+          <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-primary/10 flex flex-col gap-3">
+            <div class="flex items-center justify-between">
+              <h3 class="font-title-md text-title-md text-on-surface font-bold">Unlocked Badges</h3>
+              <span class="font-label-sm text-label-sm text-primary font-bold">4 of 12</span>
+            </div>
+            <div id="portalBadgesGrid" class="grid grid-cols-2 gap-2.5">
+              <!-- Rendered dynamically by portal.js -->
+            </div>
+          </div>
+
+          <!-- Certificate Access -->
+          <div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-tertiary/20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center font-bold text-xl">
+                🎓
+              </div>
+              <div>
+                <h4 class="font-label-lg text-label-lg text-on-surface">Verified Certificate</h4>
+                <p class="font-label-sm text-label-sm text-on-surface-variant">Ready for LinkedIn &amp; Resumes</p>
+              </div>
+            </div>
+            <button id="portalViewCertificateBtn" class="px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-surface-container-high transition-colors">
+              Preview
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Sticky Navigation Bar -->
+    <nav class="fixed bottom-0 left-0 right-0 max-w-[540px] mx-auto w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-8px_24px_rgba(124,58,237,0.08)] border-t border-primary/5">
+      <div class="flex justify-around items-center h-20 px-space-sm">
+        <a aria-current="page" class="flex flex-col items-center justify-center w-16 h-16 transition-transform active:scale-90 text-primary font-bold" data-path="overview" href="#">
+          <span class="material-symbols-outlined text-[24px]">explore</span>
+          <span class="font-label-sm text-label-sm mt-0.5">Explore</span>
+        </a>
+        <a class="flex flex-col items-center justify-center w-16 h-16 text-on-surface-variant transition-transform active:scale-90" data-path="courses" href="#">
+          <span class="material-symbols-outlined text-[24px]">school</span>
+          <span class="font-label-sm text-label-sm mt-0.5">Courses</span>
+        </a>
+        <a class="flex flex-col items-center justify-center w-16 h-16 text-on-surface-variant transition-transform active:scale-90" data-path="live-chat" href="#">
+          <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-[0_4px_12px_rgba(99,14,212,0.35)]">
+            <span class="material-symbols-outlined text-[20px]">chat_bubble</span>
+          </div>
+          <span class="font-label-sm text-label-sm mt-0.5 text-primary">Chat</span>
+        </a>
+        <a class="flex flex-col items-center justify-center w-16 h-16 text-on-surface-variant transition-transform active:scale-90" data-path="call-admissions" href="#">
+          <span class="material-symbols-outlined text-[24px]">call</span>
+          <span class="font-label-sm text-label-sm mt-0.5">Call Now</span>
+        </a>
+        <a class="flex flex-col items-center justify-center w-16 h-16 text-on-surface-variant transition-transform active:scale-90" data-path="student-portal" href="#">
+          <span class="material-symbols-outlined text-[24px]">badge</span>
+          <span class="font-label-sm text-label-sm mt-0.5">Portal</span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ================= MODALS & DRAWERS ================= -->
+
+    <!-- Multi-Step Enrollment Modal -->
+    <div id="enrollModal" class="modal-overlay">
+      <div class="modal-content">
+        <div class="flex items-center justify-between pb-3 border-b border-primary/10">
+          <div>
+            <span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Cohort 2025</span>
+            <h3 class="font-title-md text-title-md text-on-surface font-extrabold">Reserve Your Seat</h3>
+          </div>
+          <button id="closeEnrollModal" aria-label="Close Modal" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high">
+            <span class="material-symbols-outlined text-[20px]">close</span>
+          </button>
+        </div>
+
+        <!-- Wizard Step Indicators -->
+        <div class="flex items-center justify-between py-4 border-b border-primary/5">
+          <div id="stepIndicator1" class="step-item active flex items-center gap-2">
+            <span class="step-bubble">1</span>
+            <span class="font-label-sm text-label-sm font-bold">Track</span>
+          </div>
+          <div class="flex-1 h-0.5 bg-surface-container mx-2"></div>
+          <div id="stepIndicator2" class="step-item flex items-center gap-2 text-on-surface-variant">
+            <span class="step-bubble">2</span>
+            <span class="font-label-sm text-label-sm font-bold">Details</span>
+          </div>
+          <div class="flex-1 h-0.5 bg-surface-container mx-2"></div>
+          <div id="stepIndicator3" class="step-item flex items-center gap-2 text-on-surface-variant">
+            <span class="step-bubble">3</span>
+            <span class="font-label-sm text-label-sm font-bold">Confirm</span>
+          </div>
+        </div>
+
+        <form id="enrollForm" class="flex flex-col gap-4 pt-3">
+          <!-- STEP 1: Select Track -->
+          <div id="enrollStep1" class="flex flex-col gap-3">
+            <p class="font-body-md text-body-md text-on-surface-variant">Select which mastery track you would like to join:</p>
+            
+            <div class="flex flex-col gap-2.5">
+              <label class="relative flex items-center p-3 rounded-xl border border-primary/20 cursor-pointer bg-surface-container-low hover:bg-surface-container transition-all">
+                <input type="radio" name="enrollTrack" value="track-english" checked class="choice-card-input accent-primary w-4 h-4 mr-3">
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg text-on-surface font-bold">Real-World English Mastery</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">A1 - C2, accent coaching, conversation • $144/mo</span>
+                </div>
+              </label>
+
+              <label class="relative flex items-center p-3 rounded-xl border border-secondary/20 cursor-pointer bg-surface-container-low hover:bg-surface-container transition-all">
+                <input type="radio" name="enrollTrack" value="track-management" class="choice-card-input accent-secondary w-4 h-4 mr-3">
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg text-on-surface font-bold">Modern Management &amp; Leadership</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Agile, boardroom pitching, negotiations • $176/mo</span>
+                </div>
+              </label>
+
+              <label class="relative flex items-center p-3 rounded-xl border border-tertiary/20 cursor-pointer bg-surface-container-low hover:bg-surface-container transition-all">
+                <input type="radio" name="enrollTrack" value="track-ielts" class="choice-card-input accent-tertiary w-4 h-4 mr-3">
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg text-on-surface font-bold">IELTS &amp; TOEFL Band 7.5+ Intensive</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Exam strategies, timed essays, mock drills • $160/mo</span>
+                </div>
+              </label>
+
+              <label class="relative flex items-center p-3 rounded-xl border border-primary/20 cursor-pointer bg-surface-container-low hover:bg-surface-container transition-all">
+                <input type="radio" name="enrollTrack" value="track-kids" class="choice-card-input accent-primary w-4 h-4 mr-3">
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg text-on-surface font-bold">Young Explorers (Ages 8-14)</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Gamified immersion, drama quests • $112/mo</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- STEP 2: Student Details -->
+          <div id="enrollStep2" class="hidden flex flex-col gap-3">
+            <p class="font-body-md text-body-md text-on-surface-variant">Provide student information for cohort assignment:</p>
+            
+            <div class="flex flex-col gap-1">
+              <label for="enrollName" class="font-label-sm text-label-sm text-on-surface font-bold">Full Name *</label>
+              <input id="enrollName" type="text" placeholder="e.g. Alex Beridze" class="bg-surface-container-low px-3.5 py-2.5 rounded-xl text-on-surface font-body-md text-body-md border border-primary/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+            </div>
+
+            <div class="flex flex-col gap-1">
+              <label for="enrollPhone" class="font-label-sm text-label-sm text-on-surface font-bold">Phone Number (Calls/WhatsApp) *</label>
+              <input id="enrollPhone" type="tel" placeholder="e.g. 597 042 154" class="bg-surface-container-low px-3.5 py-2.5 rounded-xl text-on-surface font-body-md text-body-md border border-primary/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+            </div>
+
+            <div class="flex flex-col gap-1">
+              <label for="enrollEmail" class="font-label-sm text-label-sm text-on-surface font-bold">Email Address *</label>
+              <input id="enrollEmail" type="email" placeholder="e.g. student@gmail.com" class="bg-surface-container-low px-3.5 py-2.5 rounded-xl text-on-surface font-body-md text-body-md border border-primary/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+            </div>
+
+            <div class="flex flex-col gap-1">
+              <label class="font-label-sm text-label-sm text-on-surface font-bold">Preferred Schedule</label>
+              <div class="grid grid-cols-2 gap-2">
+                <label class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-low border border-primary/10 cursor-pointer">
+                  <input type="radio" name="enrollSchedule" value="Weekday Evenings" checked class="accent-primary">
+                  <span class="font-label-sm text-label-sm text-on-surface">Weekday Evenings</span>
+                </label>
+                <label class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-low border border-primary/10 cursor-pointer">
+                  <input type="radio" name="enrollSchedule" value="Weekend Mornings" class="accent-primary">
+                  <span class="font-label-sm text-label-sm text-on-surface">Weekend Mornings</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3: Confirm & Summary -->
+          <div id="enrollStep3" class="hidden flex flex-col gap-3">
+            <p class="font-body-md text-body-md text-on-surface-variant">Review your enrollment details before locking your seat:</p>
+            <div id="enrollReviewSummary">
+              <!-- Populated dynamically -->
+            </div>
+            <div class="p-3 rounded-xl bg-tertiary-fixed/20 border border-tertiary/20 flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-tertiary text-[20px]">verified</span>
+              <p class="font-label-sm text-label-sm text-tertiary">
+                Includes free 15-minute diagnostic evaluation with Nine Kapanadze before class starts!
+              </p>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="flex items-center justify-between pt-3 border-t border-primary/10">
+            <button id="enrollPrevStep" type="button" class="hidden py-2.5 px-4 rounded-full bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">
+              Back
+            </button>
+            <div class="flex-1"></div>
+            <button id="enrollNextStep" type="button" class="py-3 px-6 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-all">
+              Continue
+            </button>
+            <button id="enrollSubmitBtn" type="submit" class="hidden py-3 px-6 rounded-full bg-gradient-to-r from-primary to-secondary text-on-primary font-label-md text-label-md shadow-lg active:scale-95 transition-all">
+              Confirm &amp; Lock Seat ⚡
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Syllabus Drawer Modal -->
+    <div id="syllabusModal" class="modal-overlay">
+      <div class="modal-content">
+        <div class="flex items-center justify-between pb-3 border-b border-primary/10">
+          <div>
+            <span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Curriculum Deep Dive</span>
+            <h3 id="syllabusModalTitle" class="font-title-md text-title-md text-on-surface font-extrabold">Program Syllabus</h3>
+          </div>
+          <button id="closeSyllabusModal" aria-label="Close Syllabus Modal" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high">
+            <span class="material-symbols-outlined text-[20px]">close</span>
+          </button>
+        </div>
+
+        <p id="syllabusModalDesc" class="font-body-md text-body-md text-on-surface-variant py-3"></p>
+
+        <div id="syllabusWeeksList" class="flex flex-col gap-3 py-2 max-h-[50vh] overflow-y-auto">
+          <!-- Populated dynamically by app.js -->
+        </div>
+
+        <div class="pt-4 border-t border-primary/10 flex items-center justify-end gap-2">
+          <button id="syllabusEnrollBtn" class="w-full py-3 px-4 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-all flex items-center justify-center gap-1.5">
+            <span>Enroll In This Program</span>
+            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Slide-out Drawer -->
+    <div id="navDrawer" class="drawer-overlay">
+      <div class="drawer-content">
+        <div class="flex items-center justify-between pb-4 border-b border-primary/10">
+          <div class="flex items-center gap-2">
+            <img alt="Nine's Academy Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxG94w3bRrSaMGzXjICPcHzt4yS4dEnv8xA1K2Co5BpKHQ88doRG9asFHQqnyILrlDRLxX34XOTi4McG4EDrNBunIjl17Tz1_tttUqtR0uTMhgMRGhG0ZyavOpjc_WauRrLPCrxysTDAZs3NQVmsttSxxzTVTckokFS9KJpGXR0PweFdZ8JgxPP3Mx9-GidmVU0_mbiMQ4W8BWzdVAiSWF0sxfxGyPt7Cjboi2c3o">
+            <span class="font-label-lg text-label-lg text-primary font-bold">Nine's Academy</span>
+          </div>
+          <button id="closeNavDrawerBtn" aria-label="Close Navigation Drawer" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface">
+            <span class="material-symbols-outlined text-[20px]">close</span>
+          </button>
+        </div>
+
+        <!-- Instructor Profile Card -->
+        <div class="py-4 border-b border-primary/10 flex flex-col gap-2">
+          <span class="font-label-sm text-label-sm text-secondary uppercase font-bold">Academic Leadership</span>
+          <h4 class="font-title-md text-title-md text-on-surface font-bold">Ms. Nine Kapanadze</h4>
+          <p class="font-body-md text-body-md text-on-surface-variant">
+            Founder &amp; Principal Coach with 10+ years helping students, founders, and executives achieve international fluency and strategic leadership poise.
+          </p>
+        </div>
+
+        <!-- FAQs Accordion -->
+        <div class="py-4 border-b border-primary/10 flex flex-col gap-3">
+          <span class="font-label-sm text-label-sm text-primary uppercase font-bold">Frequently Asked Questions</span>
+          
+          <div class="flex flex-col gap-2">
+            <button class="faq-toggle flex items-center justify-between text-left font-label-md text-label-md text-on-surface py-1">
+              <span>What is the cohort size?</span>
+              <span class="material-symbols-outlined text-[18px]">expand_more</span>
+            </button>
+            <div class="accordion-body text-on-surface-variant font-body-md text-body-md px-1">
+              All cohorts are capped at strictly 6 students to ensure intensive speaking time and personalized feedback every class.
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <button class="faq-toggle flex items-center justify-between text-left font-label-md text-label-md text-on-surface py-1">
+              <span>Can I switch between Online and Offline?</span>
+              <span class="material-symbols-outlined text-[18px]">expand_more</span>
+            </button>
+            <div class="accordion-body text-on-surface-variant font-body-md text-body-md px-1">
+              Yes! Our hybrid format allows students in Tbilisi to attend in-person or join via interactive HD Zoom cohorts when traveling.
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <button class="faq-toggle flex items-center justify-between text-left font-label-md text-label-md text-on-surface py-1">
+              <span>How do I get my certificate?</span>
+              <span class="material-symbols-outlined text-[18px]">expand_more</span>
+            </button>
+            <div class="accordion-body text-on-surface-variant font-body-md text-body-md px-1">
+              Upon passing the final live presentation, you receive a verifiable digital credential with unique credential ID ready for LinkedIn and CVs.
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Contacts in Drawer -->
+        <div class="pt-4 flex flex-col gap-2">
+          <span class="font-label-sm text-label-sm text-on-surface-variant">Quick Connect:</span>
+          <a href="tel:597042154" class="flex items-center gap-2 text-primary font-label-md text-label-md">
+            <span class="material-symbols-outlined text-[18px]">call</span>
+            <span>597 042 154</span>
+          </a>
+          <a href="mailto:ninekapanadze@gmail.com" class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
+            <span class="material-symbols-outlined text-[18px]">mail</span>
+            <span>ninekapanadze@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Verifiable Certificate Modal -->
+    <div id="certificateModal" class="modal-overlay">
+      <div class="modal-content">
+        <div class="flex items-center justify-between pb-3 border-b border-primary/10">
+          <h3 class="font-title-md text-title-md text-on-surface font-extrabold">Certificate of Excellence</h3>
+          <button id="closeCertificateModal" aria-label="Close Certificate Modal" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface">
+            <span class="material-symbols-outlined text-[20px]">close</span>
+          </button>
+        </div>
+
+        <!-- Certificate Visual Frame -->
+        <div class="my-4 p-5 rounded-2xl bg-gradient-to-br from-surface-container-lowest to-surface-container border-2 border-primary/30 shadow-md flex flex-col items-center text-center gap-2">
+          <div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary text-2xl font-bold">
+            🎓
+          </div>
+          <span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-widest mt-1">NINE'S ACADEMY CERTIFICATE</span>
+          <h2 id="certRecipientName" class="font-headline-sm text-headline-sm font-extrabold text-on-surface mt-1">Alex Beridze</h2>
+          <p class="font-body-md text-body-md text-on-surface-variant">
+            Has successfully fulfilled all curriculum requirements, scenario simulations, and speech benchmarks for:
+          </p>
+          <span class="font-label-lg text-label-lg text-primary font-bold">Real-World English Mastery (CEFR B2.2)</span>
+          <div class="pt-3 border-t border-primary/10 w-full flex items-center justify-between text-[11px] text-on-surface-variant">
+            <span>Lead Coach: Nine Kapanadze</span>
+            <span id="certVerificationCode" class="font-bold">ID: NA-CERT-884210</span>
+          </div>
+        </div>
+
+        <button onclick="window.print()" class="w-full py-3 px-4 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-all flex items-center justify-center gap-2">
+          <span class="material-symbols-outlined text-[18px]">print</span>
+          <span>Download / Print Credential</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Canvas Confetti Layer -->
+    <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+  </div>
+
+  <!-- Application Logic Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/confetti.js"></script>
+  <script src="js/enrollment.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/portal.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
